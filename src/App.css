@@ -1,42 +1,83 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.boilerplate {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.boilerplate__title {
+  font-size: 2.5rem;
+  color: #007bff;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boilerplate__description {
+  font-size: 1.2rem;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.boilerplate__features {
+  margin-top: 20px;
 }
 
-.card {
-  padding: 2em;
+.boilerplate__features-title {
+  font-size: 1.8rem;
+  color: #007bff;
 }
 
-.read-the-docs {
-  color: #888;
+.boilerplate__features-list {
+  list-style: none;
+  padding: 0;
+}
+
+.boilerplate__features-item {
+  font-size: 1.2rem;
+  padding: 8px 0;
+}
+
+.boilerplate__docs {
+  margin-top: 20px;
+}
+
+.boilerplate__docs-title {
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.boilerplate__docs-text {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.boilerplate__link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.boilerplate__docs-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.boilerplate__icon {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+}
+
+.boilerplate__footer {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #666;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
 }
