@@ -24,6 +24,7 @@ export default tseslint.config(
       'react-refresh': reactRefresh,
       prettier,
     },
+    ignores: ['node_modules', 'dist', '.vite', 'public'],
     rules: {
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': [
