@@ -1,7 +1,25 @@
 {
-  "name": "codewithpablo-boilerplate",
-  "private": true,
-  "version": "0.0.0",
+  "name": "codewithpablo",
+  "version": "1.0.0",
+  "description": "A minimal React + TypeScript boilerplate with best practices.",
+  "main": "src/main.tsx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PabloFuentesSanz/codewithpablo-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "boilerplate",
+    "vite",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Pablo Fuentes",
+  "license": "MIT",
+  "bin": {
+    "codewithpablo-boilerplate": "./cli.js"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

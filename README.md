@@ -1,5 +1,7 @@
 # CodeWithPablo Boilerplate 🚀
 
+[![npm version](https://img.shields.io/npm/v/codewithpablo.svg)](https://www.npmjs.com/package/codewithpablo)
+
 A minimal and professional **React + TypeScript + Vite** boilerplate, pre-configured with:
 
 - **ESLint** and **Prettier** for linting and formatting.
