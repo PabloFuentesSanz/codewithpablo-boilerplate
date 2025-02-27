@@ -1,0 +1,27 @@
+.not-found {
+  text-align: center;
+  padding: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+.not-found__title {
+  font-size: 3rem;
+  color: #ff4f4f;
+}
+
+.not-found__message {
+  font-size: 1.5rem;
+  color: #555;
+  margin: 20px 0;
+}
+
+.not-found__link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
