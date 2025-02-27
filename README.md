@@ -1,54 +1,104 @@
-# React + TypeScript + Vite
+# CodeWithPablo Boilerplate 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal and professional **React + TypeScript + Vite** boilerplate, pre-configured with:
 
-Currently, two official plugins are available:
+- **ESLint** and **Prettier** for linting and formatting.
+- **Vitest** and **Testing Library** for unit testing.
+- **Husky** and **Commitlint** to enforce clean commit messages.
+- **Useful scripts** to maintain code quality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```sh
+git clone https://github.com/your-username/codewithpablo-boilerplate.git
+cd codewithpablo-boilerplate
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+After installing dependencies, run the following command to ensure Husky hooks have execution permissions:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🔧 Post-Installation
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+This boilerplate includes a postinstall script that ensures Husky hooks have execution permissions automatically.
+
+```sh
+npm postinstall
 ```
+
+However, if you encounter issues, you can run the following command manually:
+
+```sh
+chmod +x .husky/*
+```
+
+## 🚀 Usage
+
+### 🔥 Development Mode
+
+```sh
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+### 🔧 Linting & Formatting
+
+```sh
+npm run lint       # Check ESLint errors
+npm run format     # Apply Prettier formatting
+npm run check      # Run linting, formatting, and type-check in one command
+```
+
+### ✅ Testing
+
+```sh
+npm run test        # Run tests once
+npm run test:watch  # Run tests in watch mode
+npm run test:coverage # Generate test coverage report
+```
+
+### 🔄 Commit Convention
+
+This project follows the Conventional Commits standard.
+Commit messages should use the following format:
+
+```sh
+<type>(<optional scope>): <short message>
+```
+
+Common commit types:
+`feat`: New feature.
+
+`fix`: Bug fix.
+
+`chore`: Maintenance or minor changes.
+
+`docs`: Documentation updates.
+
+`test`: Adding or modifying tests.
+
+`ci`: Changes to CI/CD configuration.
+
+Examples:
+
+```sh
+git commit -m "feat(auth): add login functionality"
+git commit -m "fix(button): correct padding issue"
+git commit -m "chore(lint): configure ESLint and Prettier"
+```
+
+### 🛠 Husky & Git Hooks
+
+This boilerplate uses Husky to automate checks before commits and pushes.
+
+`pre-commit`: Runs linting and type-check before committing.
+
+`commit-msg`: Enforces Conventional Commits format.
+
+`pre-push`: Runs tests before pushing.
+
+If any check fails, the commit or push will be blocked.
+
+---
