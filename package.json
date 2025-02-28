@@ -1,5 +1,5 @@
 {
-  "name": "codewithpablo",
+  "name": "create-codewithpablo",
   "version": "1.0.2",
   "description": "A minimal React + TypeScript boilerplate with best practices.",
   "main": "src/main.tsx",
