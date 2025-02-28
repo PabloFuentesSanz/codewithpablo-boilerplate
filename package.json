@@ -18,7 +18,7 @@
   "author": "Pablo Fuentes",
   "license": "MIT",
   "bin": {
-    "codewithpablo-boilerplate": "./cli.js"
+    "create-codewithpablo": "./cli.js"
   },
   "type": "module",
   "scripts": {

@@ -13,6 +13,28 @@ A minimal and professional **React + TypeScript + Vite** boilerplate, pre-config
 
 ## 📦 Installation
 
+You can create a new project using **npm create**:
+
+```sh
+npm create codewithpablo my-new-project
+```
+
+Then, navigate into your new project and install dependencies:
+
+```sh
+cd my-new-project
+npm install
+npm postinstall
+```
+
+Finally, start the development server:
+
+```sh
+npm run dev
+```
+
+or you can clone the repository:
+
 ```sh
 git clone https://github.com/your-username/codewithpablo-boilerplate.git
 cd codewithpablo-boilerplate
