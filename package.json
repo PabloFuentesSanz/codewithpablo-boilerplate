@@ -1,6 +1,6 @@
 {
   "name": "create-codewithpablo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A minimal React + TypeScript boilerplate with best practices.",
   "main": "src/main.tsx",
   "repository": {
