@@ -137,3 +137,27 @@ codewithpablo-boilerplate/
 │── node_modules/        # Dependencies (ignored in Git)
 │── ...                  #
 ```
+
+## 🔗 Aliases for Importing
+
+This boilerplate supports **path aliases** for cleaner imports. Instead of writing:
+
+```ts
+import Home from '../../../pages/Home'
+```
+
+You can use the alias @ to import from src/:
+
+```ts
+import Home from '@/pages/Home'
+```
+
+Aliases are defined in both:
+
+- vite.config.ts → for Vite and the app runtime.
+- vite.config.ts (test section) → for Vitest compatibility.
+- tsconfig.json → for TypeScript support.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read the [Contributing Guide](CONTRIBUTING.md) before submitting a pull request.
