@@ -1,6 +1,6 @@
 # CodeWithPablo Boilerplate 🚀
 
-[![npm version](https://img.shields.io/npm/v/codewithpablo.svg)](https://www.npmjs.com/package/codewithpablo)
+[![npm version](https://img.shields.io/npm/v/create-codewithpablo.svg)](https://www.npmjs.com/package/create-codewithpablo)
 
 A minimal and professional **React + TypeScript + Vite** boilerplate, pre-configured with:
 
