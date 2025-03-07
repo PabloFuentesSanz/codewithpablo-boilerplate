@@ -1,8 +1,8 @@
-# CodeWithPablo Boilerplate 🚀
+# CodeWithPablo Starter Kit 🚀
 
 [![npm version](https://img.shields.io/npm/v/create-codewithpablo.svg)](https://www.npmjs.com/package/create-codewithpablo)
 
-A minimal and professional **React + TypeScript + Vite** boilerplate, pre-configured with:
+A minimal and professional **React + TypeScript + Vite** starter kit, pre-configured with:
 
 - **ESLint** and **Prettier** for linting and formatting.
 - **Vitest** and **Testing Library** for unit testing.
@@ -10,6 +10,8 @@ A minimal and professional **React + TypeScript + Vite** boilerplate, pre-config
 - **Useful scripts** to maintain code quality.
 
 ---
+
+📖 **Full Documentation:** [CodeWithPablo Docs](https://PabloFuentesSanz.github.io/codewithpablo-docs/)
 
 ## 📦 Installation
 
