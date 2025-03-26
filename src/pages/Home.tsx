@@ -118,7 +118,16 @@ function Home() {
       <section className="boilerplate__docs">
         <h2 className="boilerplate__docs-title">📖 Documentation</h2>
         <p className="boilerplate__docs-text">
-          Check out the full documentation on
+          Check out the
+          <a
+            className="boilerplate__docs-link"
+            href="https://pablofuentessanz.github.io/codewithpablo-docs/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            full documentation
+          </a>{' '}
+          and the repository
           <a
             className="boilerplate__docs-link"
             href="https://github.com/PabloFuentesSanz/codewithpablo-boilerplate"
@@ -144,7 +153,8 @@ function Home() {
 
       <footer className="boilerplate__footer">
         <p className="boilerplate__footer-text">
-          🚀 Start building! Edit <code>src/App.tsx</code> to get started.
+          🚀 Start building! Edit <code>src/pages/Home.tsx</code> to get
+          started.
         </p>
       </footer>
     </main>

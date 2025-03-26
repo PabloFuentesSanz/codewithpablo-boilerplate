@@ -42,7 +42,7 @@ After installing dependencies, run the following command to ensure Husky hooks h
 This boilerplate includes a postinstall script that ensures Husky hooks have execution permissions automatically.
 
 ```sh
-npm postinstall
+npm run postinstall
 ```
 
 However, if you encounter issues, you can run the following command manually:
